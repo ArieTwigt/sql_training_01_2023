@@ -3,7 +3,7 @@
 
 ## Contents
 
-* [SQL Basic keywords and operators](#Basics"):
+* SQL Basic keywords and operators:
 
     * [WHERE](#WHERE)
     * [ORDER](#ORDER)
@@ -14,7 +14,7 @@
     * [DISTINCT](#DISTINCT)
 
 
-## Basics
+## SQL Basic keywords and operators
 
 
 ### WHERE
