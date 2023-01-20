@@ -3,6 +3,16 @@
 
 ## SQL Basic keywords and operators
 
+Contents:
+
+* WHERE[#WHERE]
+* ORDER[#ORDER]
+* BETWEEN[#BETWEEN]
+* IN[#IN]
+* LIKE[#LIKE]
+* COUNT[]
+* DISTINCT
+
 ### WHERE
 
 The WHERE clause is used in SQL to filter the results of a query based on specific conditions. It is used to filter rows from a table based on a specified condition.
@@ -85,4 +95,4 @@ The DISTINCT keyword is used in SQL to return only unique values in the result s
 ```
 SELECT DISTINCT column1, column2, ...
 FROM table_name;
-`
+```
