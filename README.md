@@ -85,4 +85,4 @@ The DISTINCT keyword is used in SQL to return only unique values in the result s
 ```
 SELECT DISTINCT column1, column2, ...
 FROM table_name;
-```
+`
