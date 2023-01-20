@@ -1,17 +1,21 @@
 
 # SQL Training
 
+## Contents
+
+* [SQL Basic keywords and operators](#SQL Basic keywords and operators):
+
+* [WHERE](#WHERE)
+* [ORDER](#ORDER)
+* [BETWEEN](#BETWEEN)
+* [IN](#IN)
+* [LIKE](#LIKE)
+* [COUNT](#COUNT)
+* [DISTINCT](#DISTINCT)
+
+
 ## SQL Basic keywords and operators
 
-Contents:
-
-* WHERE[#WHERE]
-* ORDER[#ORDER]
-* BETWEEN[#BETWEEN]
-* [IN](#IN)
-* LIKE[#LIKE]
-* COUNT[]
-* DISTINCT
 
 ### WHERE
 
