@@ -3,5 +3,5 @@ SELECT cars.brand,
        cars.model,
        cars.seats
 FROM registered_cars AS cars
-WHERE cars.seats BETWEEN 2 AND 5
+WHERE cars.seats BETWEEN 3 AND 5
 ORDER BY cars.seats
