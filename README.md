@@ -5,13 +5,13 @@
 
 * [SQL Basic keywords and operators](#Basics"):
 
-* [WHERE](#WHERE)
-* [ORDER](#ORDER)
-* [BETWEEN](#BETWEEN)
-* [IN](#IN)
-* [LIKE](#LIKE)
-* [COUNT](#COUNT)
-* [DISTINCT](#DISTINCT)
+    * [WHERE](#WHERE)
+    * [ORDER](#ORDER)
+    * [BETWEEN](#BETWEEN)
+    * [IN](#IN)
+    * [LIKE](#LIKE)
+    * [COUNT](#COUNT)
+    * [DISTINCT](#DISTINCT)
 
 
 ## Basics
