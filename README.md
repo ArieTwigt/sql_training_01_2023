@@ -8,7 +8,7 @@ Contents:
 * WHERE[#WHERE]
 * ORDER[#ORDER]
 * BETWEEN[#BETWEEN]
-* IN[](#IN)
+* [IN](#IN)
 * LIKE[#LIKE]
 * COUNT[]
 * DISTINCT
