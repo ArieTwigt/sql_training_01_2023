@@ -7,7 +7,7 @@ WITH brands_motor AS (SELECT cars.plate,
                       FROM registered_cars AS cars
                       LEFT JOIN cars_motor AS motor
                       ON cars.plate = motor.plate
-) AS  brands_motor_grouped (
+), brands_motor_grouped AS (
     SELECT brands_motor.brand,
        brands_motor.model,
        brands_motor.plate,
@@ -15,6 +15,22 @@ WITH brands_motor AS (SELECT cars.plate,
        SUM(brands_motor.power_electric) AS power_electric
     FROM brands_motor
     GROUP BY 1,2,3
-    HAVING plate = 'P634RF'
+    HAVING power_electric IS NOT NULL
+    --HAVING plate = 'P634RF'
 )
 
+SELECT 
+       --brands_motor_grouped.plate,
+       brands_motor_grouped.brand,
+       brands_motor_grouped.model,
+       ROUND(
+         AVG(
+             (brands_motor_grouped.power_electric / 
+             (brands_motor_grouped.power_fuel + 
+              brands_motor_grouped.power_electric)) * 100
+          ), 1) AS relative_power_electric
+FROM brands_motor_grouped
+GROUP BY 1,2
+HAVING brands_motor_grouped.brand = 'TOYOTA' AND 
+      brands_motor_grouped.model LIKE '%PRIUS%'
+ORDER BY relative_power_electric DESC
