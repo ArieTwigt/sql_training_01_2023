@@ -5,11 +5,10 @@ SELECT cars_2seats.brand,
 FROM (
     SELECT cars.brand,
        cars.model,
-       cars.seats,
+       cars.seats,  
        ROUND(AVG(cars.price), 2)
              as average_price
     FROM registered_cars AS cars
-    WHERE cars.seats = 2
     GROUP BY 1,2,3
 ) AS cars_2seats
 
