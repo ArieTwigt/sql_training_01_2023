@@ -1,3 +1,4 @@
+-- What car has the highes price per seat?
 SELECT cars_2seats.brand,
        cars_2seats.model,
        cars_2seats.average_price / cars_2seats.seats AS price_per_seat
